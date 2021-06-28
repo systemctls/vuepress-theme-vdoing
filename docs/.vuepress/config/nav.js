@@ -67,7 +67,6 @@ module.exports = [
       { text: '面试', link: '/pages/aea6571b7a8bae86/' },
       { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
       { text: '实用技巧', link: '/pages/baaa02/' },
-      { text: '友情链接', link: '/friends/' },
     ],
   },
   { text: '关于', link: '/about/' },
@@ -81,12 +80,12 @@ module.exports = [
     // ],
   },
   {
-    text: '索引',
+    text: '归档',
     link: '/archives/',
-    items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
-    ],
+    // items: [
+    //   { text: '分类', link: '/categories/' },
+    //   { text: '标签', link: '/tags/' },
+    //   { text: '归档', link: '/archives/' },
+    // ],
   },
 ]
