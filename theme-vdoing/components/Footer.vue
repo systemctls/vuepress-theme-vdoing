@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <div
+    <!-- <div
       class="icons"
       v-if="social && social.icons"
     >
@@ -12,10 +12,10 @@
         :key="index"
         target="_blank"
       ></a>
-    </div>
+    </div> -->
 
     <!--Vdoing主题遵循MIT协议，完全开源且免费。如果您对主题的修改并不大，希望您保留主题的链接。-->
-    Theme by
+    <!-- Theme by
     <a
       href="https://github.com/xugaoyi/vuepress-theme-vdoing"
       target="_blank"
@@ -26,7 +26,7 @@
       <span
         v-html="footer.copyrightInfo"
       ></span>
-    </template>
+    </template> -->
   </div>
 </template>
 
@@ -46,6 +46,7 @@ export default {
 <style lang='stylus'>
 // $mobileSidebarWidth = $sidebarWidth * 0.82
 .footer
+  display none
   padding 5rem 1.5rem 2.5rem
   text-align center
   color #666
