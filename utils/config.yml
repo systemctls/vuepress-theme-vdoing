@@ -8,9 +8,17 @@ path:
 # 要删除的字段 (数组)
 delete:
   # - tags
+  - categories
+  - date
 
- # 要添加、修改front matter的数据 （front matter中没有的数据则添加，已有的数据则覆盖）
+  # 要添加、修改front matter的数据 （front matter中没有的数据则添加，已有的数据则覆盖）
+
 data:
-  # author:
-  #   name: wccode
-  #   link: ''
+  date: 2021-06-01 12:00:00
+  categories:
+    - 更多
+  tags:
+    - null
+  author:
+    name: wccode
+    link: ""
