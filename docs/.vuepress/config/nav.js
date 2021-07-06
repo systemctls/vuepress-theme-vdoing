@@ -22,10 +22,6 @@ module.exports = [
           { text: '《Vue》笔记', link: '/note/vue/' },
           { text: '《React》笔记', link: '/note/react/' },
           {
-            text: '《TypeScript 从零实现 axios》',
-            link: '/note/typescript-axios/',
-          },
-          {
             text: '《Git》学习笔记',
             link: '/note/git/',
           },
@@ -82,6 +78,15 @@ module.exports = [
   {
     text: '归档',
     link: '/archives/',
+    // items: [
+    //   { text: '分类', link: '/categories/' },
+    //   { text: '标签', link: '/tags/' },
+    //   { text: '归档', link: '/archives/' },
+    // ],
+  },
+  {
+    text: 'demo',
+    link: '/demo/',
     // items: [
     //   { text: '分类', link: '/categories/' },
     //   { text: '标签', link: '/tags/' },
